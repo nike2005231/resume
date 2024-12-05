@@ -1,0 +1,81 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'main/css/styles.css' %}">
+</head>
+<body>
+    <img src="{% static 'main/images/background.jpg' %}" class="background">
+    <div class='info-bar'>
+        <div class="image-container">
+            <img src="{% static 'main/images/profile.jpg' %}" class="profile-image">
+            <div class="profile-text">
+                <div class="contact-item">
+                    <img src="{% static 'main/images/icons/mail.png' %}" class="mail-icon">
+                    <p><a href="mailto:nikitaLevenko1@gmail.com">nikitaLevenko1@gmail.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <img src="{% static 'main/images/icons/phone.png' %}" class="phone-icon">
+                    <p><a href="tel:+79683906638">+7 968 390 66-38</a></p>
+                </div>
+                <div class="contact-item">
+                    <img src="{% static 'main/images/icons/vk.png' %}" class="vk-icon">
+                    <p><a href="https://vk.com/chipchilinkao" target="_blank">https://vk.com/chipchilinkao</a></p>
+                </div>
+                <div class="contact-item">
+                    <img src="{% static 'main/images/icons/tg.png' %}" class="tg-icon">
+                    <p><a href="https://t.me/Did_try" target="_blank">@Did_try</a></p>
+                </div>
+                <div class="contact-item">
+                    <img src="{% static 'main/images/icons/whatsapp.png' %}" class="whatsapp-icon">
+                    <p><a href="https://wa.me/79683906638" target="_blank">WhatsApp</a></p>
+                </div>
+            </div>
+        </div>
+        <div class='info-tabel'>
+            <h2>Личные данные</h2>
+            <p><strong>ФИО:</strong> ЛЕВЕНКО НИКИТА ВАДИМОВИЧ</p>
+            <p><strong>Дата рождения:</strong> 14.01.2005</p>
+            <p><strong>Город:</strong> Москва</p>
+        </div>
+        <div class='info-tabel'>
+            <h2>Образование</h2>
+            <p><strong>Учебное заведение:</strong> Тимирязевская академия (СПО)</p>
+            <p><strong>Специальность:</strong> Программист</p>
+            <p><strong>Форма обучения:</strong> Очная</p>
+        </div>
+        <div class='info-tabel'>
+            <h2>Личная информация</h2>
+            <p><strong>Переезд:</strong> невозможен</p>
+            <p><strong>Гражданство:</strong> Россия</p>
+            <p><strong>Семейное положение:</strong> Холост</p>
+            <p><strong>Дети:</strong> нет</p>
+        </div>
+        <div class='info-tabel'>
+            <h2>Навыки и дополнительная информация</h2>
+            <h3>Языки программирования:</h3>
+            <p>Python (уверенный уровень), C# (базовый уровень)</p>
+            <h3>Фреймворки и библиотеки:</h3>
+            <p>Django, PyQt, Requests, NumPy, Pandas, Beautiful Soup, SQLAlchemy, Pygame, pyTelegramBotApi, psycopg2, OpenCV</p>
+            <h3>Веб-технологии:</h3>
+            <p>HTML/CSS, REST, RESTful API</p>
+            <h3>Базы данных:</h3>
+            <p>SQL (PostgreSQL, MySQL, MSSQL, SQLite)</p>
+            <h3>Инструменты и технологии:</h3>
+            <p>Git, GitLab, командная строка (cmd, Ubuntu), Unity (базовые навыки)</p>
+            <h3>Дополнительные навыки:</h3>
+            <p>Работа с офисными приложениями, навыки работы в Photoshop, опыт фриланса в качестве ретушера (2 года)</p>
+        </div>
+        <div class='info-tabel'>
+            <h2>Проекты</h2>
+            <p><a href='https://github.com/nike2005231' target="_blank" class='link-github'>Перейти<a></p>
+        </div>
+        <div class='info-tabel'>
+            <h2>Личностные качества</h2>
+            <p>Ответственный, умение работать в команде, стремление к обучению и саморазвитию, готов к новым вызовам и интересным проектам. Открыт для обучения и повышения квалификации в области программирования и разработки.</p>
+        </div>
+    </div>
+</body>
+</html>
